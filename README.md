@@ -1,8 +1,5 @@
 # Optimization-of-Deproteinization-Efficiency
-This repository contains the implementation of the algorithms in C++ programming language used for the analysis developed in the paper “Optimization of Deproteinization Efficiency in Chitin Hydrolysis using Sodium Hydroxide” Th
-
-
-optimize the deproteinization efficiency in chitin hydrolysis by using sodium hydroxide (NaOH), based on a literature review of scientific experiments. The project uses **Least Squares Fitting**, **Exhaustive Search**, and a **Beam Search Algorithm** to find the optimal NaOH molarity, temperature, and processing time for chitin hydrolysis.
+This repository contains the implementation of the algorithms in C++ programming language used for the analysis developed in the paper “Optimization of Deproteinization Efficiency in Chitin Hydrolysis using Sodium Hydroxide”. The algorithms model and optimize the deproteinization efficiency in chitin hydrolysis using sodium hydroxide (NaOH), based on a literature review of ten distincts scientific experiments. The project uses **Least Squares Fitting**, **Exhaustive Search**, and a **Beam Search** methos to find the optimal NaOH molarity, temperature, and processing time for chitin hydrolysis.
 
 ## 📘 Project Structure
 # LeastSquares.cpp
