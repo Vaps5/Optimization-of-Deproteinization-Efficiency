@@ -1,15 +1,28 @@
 # Optimization-of-Deproteinization-Efficiency
-A repository containing the implementation of the algorithms used for the analysis developed in the paper “Optimization of Deproteinization Efficiency in Chitin Hydrolysis using Sodium Hydroxide”. 
-<html>
-  <head>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
-  </head>
-  <body>
-    <p>Here is the equation rendered by MathJax:</p>
-    <p>
-      $$ E = \frac{{\text{{protein removed}}}}{{\text{{initial protein concentration}}}} \times 100 $$
-    </p>
-  </body>
-</html>
+This repository contains the implementation of the algorithms in C++ programming language used for the analysis developed in the paper “Optimization of Deproteinization Efficiency in Chitin Hydrolysis using Sodium Hydroxide” Th
+
+
+optimize the deproteinization efficiency in chitin hydrolysis by using sodium hydroxide (NaOH), based on a literature review of scientific experiments. The project uses **Least Squares Fitting**, **Exhaustive Search**, and a **Beam Search Algorithm** to find the optimal NaOH molarity, temperature, and processing time for chitin hydrolysis.
+
+## 📘 Project Structure
+# LeastSquares.cpp
+Least Squares fitting for finding undteermined coefficients of the function that models the problem. This algorithm uses Gaussian Elimination method with partial pivoting.  
+# BeamSearch.cpp
+Machine learning technique for optimizing the modeling. 
+# ExhaustiveSearch.cpp
+Exhaustive Search solution for optimizing the modeling. The algorithm searches the optimum points by increasing all variables by 0.01 units for better precision.
+
+### Prerequisites
+
+- [VS Code](https://code.visualstudio.com/)
+- C++ compiler (e.g., `g++`, `clang++`)
+- CMake (optional, for build configuration)
+- GNU Make (if using Makefile)
+
+### Build Instructions
+
+You can compile the file with the g++ command:
+
+make LeastSquares
+
+Once the program is compiled, you can run it by entering the name of the file.
